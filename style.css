@@ -1,0 +1,371 @@
+/* css reset  */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#mainham{
+    display: none;
+}
+
+.ham{
+    width: 20px;
+    height: 2px;
+    background-color: #0d6efd;
+    margin: 4px 8px;
+}
+
+#arrow{
+    color:#0d6efd;
+    font-size: 2rem;
+
+}
+/* Scrollbar  */
+::-webkit-scrollbar{
+    background-color:white;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0d6dfdd0;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #0d6efd;
+}
+
+/* navbar  */
+nav{
+    background-color: #0d6dfd1e;
+    display: flex;
+    justify-content: end;
+    padding: 6px 12px;
+    padding-right: 50px;
+}
+
+nav ul{
+    display: flex;
+}
+nav li a {
+    color: #0d6efd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin: 0px 25px;
+    text-decoration: none; /* Remove the default underline */
+    position: relative; /* Set position relative for pseudo-element */
+}
+
+.logo{
+    color: #0d6efd;
+    position: absolute;
+    padding: 16px 50px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 1.8rem;
+}
+
+/* mainsection  */
+section{
+    height: 100vh;
+    padding-top: 40px;
+}
+#headline{
+    font-size: 2.3rem;
+    letter-spacing: 1.1px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.151);
+}
+
+#mainbox{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 60vh;
+    padding-top: 20px;
+    margin: auto;
+
+}
+
+.firstbox{
+    /* border: 2px solid green; */
+    width: 30vw;
+    height: 60vh;
+    margin-right: 15px;
+}
+.secondbox{
+    /* border: 2px solid maroon; */
+    width: 30vw;
+    height: 60vh;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+#copy{
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    font-size: 0.7rem;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1px;
+    right: 10px;;
+}
+
+#lang::placeholder{
+    color: white;
+}
+#lang:hover::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.search{
+    width: 29vw;
+    text-align: center;
+    letter-spacing: 2px;
+    background: none;
+    outline: none;
+    border: 2px solid #0d6efd;
+    font-weight: bolder;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 8px 5px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+#typed_text{
+    width: 29vw;
+    min-height: 52vh;
+    resize: none;
+    font-size: 1.3rem;
+    max-height: 52vh;
+    border: 2px solid #0d6efd;
+    outline: none;
+    padding: 2px 6px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+#translated_text{
+    font-size: 1.3rem;
+    width: 29vw;
+    min-height: 52vh;
+    background-color: #0d6dfd1e;
+    resize: none;
+    max-height: 52vh;
+    border: 2px solid #0d6efd;
+    outline: none;
+    padding: 2px 6px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#btn{
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    font-weight: bolder;
+    margin: 30px auto;
+    padding: 2px 10px;
+}
+#btn:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Footer Section */
+footer{
+    height: 30vh;
+    background-color: #0d6efd;
+    position: relative;
+}
+
+.logo2{
+    color: white;
+    position: absolute;
+    padding: 5px 50px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 1.8rem;
+    top: 70px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.384);
+    right: 0px;
+}
+.footer-content {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.contact{
+ position:absolute;
+ left: 50%;
+ transform: translateX(-50%);
+ top: 25%;
+}
+.contact h3{
+color: white;
+font-size: 1.5rem;
+text-shadow: 2px 3px rgba(0, 0, 0, 0.384);
+padding: 0px 25px;
+}
+
+.icons{
+    color: white;
+    font-size: 2rem;
+    padding: 0px 10px;
+}
+.icons:hover{
+    color: black;
+}
+
+.about{
+    width: 30vw;
+    padding-top: 25px;
+}
+.about h3{
+    color: white;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.384);
+    padding: 0px 10px;  
+    font-size: 1.5rem;
+    text-align: center; 
+}
+.about p{
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.resfooter{
+    display: none;
+}
+
+
+/* FOR RESPONSIVE  */
+
+@media (max-width:768px) {
+    .logo{
+        font-size: 1.8rem;
+        padding: 10px 12px ;
+    }
+    nav{
+        display: none;
+        padding-top: 45px;
+        padding-left: 15px;
+        justify-content: flex-start;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav li{
+        margin: 2px 0px;
+    }
+    nav li a{
+        margin: 0px 0px;
+        font-size: 1.1rem;
+    }
+    
+    #mainham{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        padding: 0px;
+        top: 0px;
+        right:10px;
+    }
+
+    #headline{
+        font-size: 1.8rem;
+        margin-top: 30px;
+        padding: 0px 5px;
+    }
+    .search{
+        font-size: 1rem;
+    }
+    #arrow{
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
+
+    #typed_text{
+        font-size: 0.7rem;
+        min-height: 20vh;
+        max-height: 20vh;
+    }
+    #translated_text{
+        font-size: 0.7rem;
+        min-height: 20vh;
+        max-height: 20vh;
+    }
+
+    #mainbox{
+        height: 25vh;
+    }
+
+    section{
+        height: 50vh;
+    }
+
+    .firstbox{
+        height: 26vh;
+    }
+    .secondbox{
+        height: 26vh;
+    }
+    #copy{
+        font-size: 0.5rem;
+        padding: 2px 10px;
+        bottom: 5px;
+        right: 0px;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .resfooter{
+        display: block;
+        position: absolute;
+        background-color: #0d6efd;
+        text-align: center;
+        bottom: 0px;
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .resfooter p{
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        color: white;
+        letter-spacing: 1px;
+        padding: 8px 0px;
+        margin:0px;
+    }
+
+    .icons{
+        font-size: 1.5rem;
+    }
+
+
+}
